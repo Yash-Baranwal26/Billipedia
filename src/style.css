@@ -1,0 +1,39 @@
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+.b-red{
+    border-bottom: 2px solid red;
+}
+.topnav a.nav-link{
+    color: white;
+}
+.drps{
+    text-align: right;
+    cursor: pointer;
+    font-size: larger;
+    display: none;
+}
+.show{
+    display: block;
+}
+.select:hover{
+    transform: translateY(-20px);
+    transition: .5s;
+}
+@media screen and (max-width:576px)
+{
+    .inv{
+        display: none;
+        width: 100%;
+    }
+    .inv li{
+            width: 100%;
+            border-bottom: 1px solid white;
+        } 
+    .drps{
+        display: block;
+    }
+}
