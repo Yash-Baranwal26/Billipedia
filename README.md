@@ -1,1 +1,1 @@
-A Responsive website which shows a list of billionaire
+Billipedia is a responsive website which shows the list of billionaires of different countries.
