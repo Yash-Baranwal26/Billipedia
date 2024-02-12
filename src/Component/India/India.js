@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Header from './Header';
+import Header from '../Header';
 import { Outlet,Link } from 'react-router-dom';
 
 export default function India() {
@@ -43,8 +43,8 @@ export default function India() {
   <br />
   <br />
   <br />
-  <div className="container-fluid  border">
-    <div className="row border">
+  <div className="container-fluid  ">
+    <div className="row ">
 
     
      
@@ -93,14 +93,14 @@ export default function India() {
             Mukesh Ambani
             </h4>
             <p className="card-text">
-              Mr Gautam Adani is the Founder and Chairman of the Adani Group,
+              Mr Mukesh Ambani is the Founder and Chairman of the Reliance Group,
               which ranks among the top 3 industrial conglomerates in India.
             </p>
             <hr />
             <div className="row">
               <div className="col-6 text-left">Net Worth:-</div>
               <div className="col-6 text-right">
-                <span className="text-danger">$</span>138.1 billion
+                <span className="text-danger">$</span>114.7 billion
               </div>
             </div>
             {/* <a href="#" class="btn btn-primary">See Profile</a> */}
@@ -110,7 +110,7 @@ export default function India() {
       {/*col-4*/}
 
       <div className="col-md-4 mt-2 mb-3">
-        <div className="card bg-dark select" style={{ width: 400 }}>
+      <Link to={"/ratanTata"} className='text-decoration-none'><div className="card bg-dark select" style={{ width: 400 }}>
           <img
             className="card-img-top"
             src="/Image/Ratan_Tata.jpg"
@@ -120,22 +120,22 @@ export default function India() {
           />
           <div className="card-body text-light">
             <h4 className="card-title ul text-decoration-underline font-weight-bold">
-              Gautam Adani
+              Ratan Tata
             </h4>
             <p className="card-text">
-              Mr Gautam Adani is the Founder and Chairman of the Adani Group,
-              which ranks among the top 3 industrial conglomerates in India.
+            Ratan Naval Tata (born 28 December 1937) is an Indian industrialist, philanthropist 
+            and former chairman of Tata Sons. 
             </p>
             <hr />
             <div className="row">
               <div className="col-6 text-left">Net Worth:-</div>
               <div className="col-6 text-right">
-                <span className="text-danger">$</span>138.1 billion
+                <span className="text-danger">$</span>38 billion
               </div>
             </div>
             {/* <a href="#" class="btn btn-primary">See Profile</a> */}
           </div>
-        </div>
+        </div></Link>
       </div>{/*Ratan tata*/}
       {/*col-4*/}
 
@@ -144,7 +144,7 @@ export default function India() {
 
     <div className="row">
       <div className="col-md-4 mt-2 mb-3">
-        <div className="card bg-dark select" style={{ width: 400 }}>
+      <Link to={"/nrMurthy"} className='text-decoration-none'><div className="card bg-dark select" style={{ width: 400 }}>
           <img
             className="card-img-top"
             src="/Image/NR_narayanMurty.jpg"
@@ -154,27 +154,27 @@ export default function India() {
           />
           <div className="card-body text-light">
             <h4 className="card-title ul text-decoration-underline font-weight-bold">
-              Gautam Adani
+            N. R. Narayana Murthy
             </h4>
             <p className="card-text">
-              Mr Gautam Adani is the Founder and Chairman of the Adani Group,
-              which ranks among the top 3 industrial conglomerates in India.
+            Nagavara Ramarao Narayana Murthy (born 20 August 1946) is an Indian billionaire 
+            businessman. He is one of the seven co-founders of Infosys
             </p>
             <hr />
             <div className="row">
               <div className="col-6 text-left">Net Worth:-</div>
               <div className="col-6 text-right">
-                <span className="text-danger">$</span>138.1 billion
+                <span className="text-danger">$</span>4.1 billion
               </div>
             </div>
             {/* <a href="#" class="btn btn-primary">See Profile</a> */}
           </div>
-        </div>
+        </div></Link>
       </div>{/*NR Narayan Murti*/}
       {/*col-4*/}
 
       <div className="col-md-4 mt-2 mb-3">
-        <div className="card bg-dark select" style={{ width: 400 }}>
+      <Link to={"/azimPremji"} className='text-decoration-none'><div className="card bg-dark select" style={{ width: 400 }}>
           <img
             className="card-img-top"
             src="/Image/Azim-Premji.jpg"
@@ -184,53 +184,22 @@ export default function India() {
           />
           <div className="card-body text-light">
             <h4 className="card-title ul text-decoration-underline font-weight-bold">
-              Gautam Adani
+            Azim Premji
             </h4>
             <p className="card-text">
-              Mr Gautam Adani is the Founder and Chairman of the Adani Group,
-              which ranks among the top 3 industrial conglomerates in India.
+            Azim Hashim Premji (born 24 July 1945) is an Indian businessman and philanthropist, 
+            who was the chairman of Wipro Limited. 
             </p>
             <hr />
             <div className="row">
               <div className="col-6 text-left">Net Worth:-</div>
               <div className="col-6 text-right">
-                <span className="text-danger">$</span>138.1 billion
+                <span className="text-danger">$</span>11.3 billion
               </div>
             </div>
-            {/* <a href="#" class="btn btn-primary">See Profile</a> */}
           </div>
-        </div>
+        </div></Link>
       </div>{/*Azim Premji*/}
-      {/*col-4*/}
-
-      <div className="col-md-4 mt-2 mb-3">
-        <div className="card bg-dark select" style={{ width: 400 }}>
-          <img
-            className="card-img-top"
-            src="/Image/Gautam_Adani.jpg"
-            alt="Card image"
-            width="200px"
-            height="300px"
-          />
-          <div className="card-body text-light">
-            <h4 className="card-title ul text-decoration-underline font-weight-bold">
-              Gautam Adani
-            </h4>
-            <p className="card-text">
-              Mr Gautam Adani is the Founder and Chairman of the Adani Group,
-              which ranks among the top 3 industrial conglomerates in India.
-            </p>
-            <hr />
-            <div className="row">
-              <div className="col-6 text-left">Net Worth:-</div>
-              <div className="col-6 text-right">
-                <span className="text-danger">$</span>138.1 billion
-              </div>
-            </div>
-            {/* <a href="#" class="btn btn-primary">See Profile</a> */}
-          </div>
-        </div>
-      </div>{/*Gautam Adani*/}
       {/*col-4*/}
 
     </div>

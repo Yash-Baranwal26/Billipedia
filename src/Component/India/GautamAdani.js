@@ -1,15 +1,15 @@
 import React from 'react'
-import Header from './Header'
+import Header from '../Header'
 
 export default function GautamAdani() {
   return (
     <div className='bg-dark '>
       <Header/>
-      <div className='container mt-3'>
-        <div className='row'>
-          <div className='col-md-4'>
+      <div className='container'>
+        <div className='row  pt-4'>
+          <div className='col-md-4 pt-4'>
         <img
-            className="card-img-top"
+            className="card-img-top border"
             src="/Image/Gautam_Adani.jpg"
             alt="Card image"
             width="20px"

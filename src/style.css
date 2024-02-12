@@ -26,7 +26,7 @@
 @media screen and (max-width:576px)
 {
     .inv{
-        display: none;
+        display: block;
         width: 100%;
     }
     .inv li{
